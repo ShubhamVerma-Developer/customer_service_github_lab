@@ -473,7 +473,7 @@
           "properties": {
               "mode": "Incremental",
               "templateLink": {
-                  "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/master/samples/ingestion/ingestion-client/Setup/ArmTemplateBatch.json",
+                  "uri": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-speech-sdk/b329c0ab26dc9e9cb814d5c8d9114fadabdf8d11/samples/ingestion/ingestion-client/Setup/ArmTemplateBatch.json",
                   "contentVersion": "1.0.0.0"
               },
               "parameters": {
@@ -766,7 +766,7 @@
                       },
                       {
                           "name": "WEBSITE_RUN_FROM_PACKAGE",
-                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip"
+                          "value": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/02af4da50cdae53cf314ce089a6cc5a78e62adf1/infrastructure/deploy/csci-audio-dep.zip"
                       }
                   ]
               },
@@ -820,7 +820,7 @@
               "cognitive_search_knowledge_store_table_keyphrases": "keyphrasestable",
               "FUNCTIONS_EXTENSION_VERSION": "~4",
               "FUNCTIONS_WORKER_RUNTIME": "python",
-              "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/raw/master/infrastructure/deploy/csci-audio-dep.zip",
+              "WEBSITE_RUN_FROM_PACKAGE": "https://github.com/microsoft/Customer-Service-Conversational-Insights-with-Azure-OpenAI-Services/blob/02af4da50cdae53cf314ce089a6cc5a78e62adf1/infrastructure/deploy/csci-audio-dep.zip",
               "function_name": "[parameters('functionName')]",
               "function_key": "[variables('clientKey')]",
               "openai_function_name": "[variables('openAIFunctionName')]",
